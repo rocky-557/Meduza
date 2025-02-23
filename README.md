@@ -19,9 +19,9 @@
    !mkdir -p ~/.kaggle
    !mv kaggle.json ~/.kaggle/
    !chmod 600 ~/.kaggle/kaggle.json
-   !kaggle competitions download -c aptos2019-blindness-detection
-   !unzip aptos2019-blindness-detection.zip -d data/
+
    ```
+**Dataset Link : https://www.kaggle.com/datasets/matheuseduardo/preprocessed-2019-blindness-detection**
 
 #### **Step 3: Data Preprocessing**
 1. Load image paths and labels from `train.csv`.
