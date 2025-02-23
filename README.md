@@ -3,7 +3,7 @@
 
 ## **Team Work Distribution**
 
-### **Person 1: Data Preparation & Preprocessing**
+### ** Data Preparation & Preprocessing**
 #### **Step 1: Setup Environment**
 1. Open Google Colab and create a new notebook.
 2. Install dependencies:
@@ -70,7 +70,7 @@
 
 ---
 
-### **Person 2: BYOL Model Implementation**
+### ** BYOL Model Implementation**
 #### **Step 4: Define BYOL Model**
 1. Load EfficientNet-B3 as a feature extractor:
    ```python
@@ -121,7 +121,7 @@
 
 ---
 
-### **Person 3: Training & Fine-tuning**
+### ** Training & Fine-tuning**
 #### **Step 5: Train BYOL Model**
 ```python
 byol_model = BYOL(base_model).to("cuda")
@@ -158,7 +158,7 @@ class DRClassifier(nn.Module):
 
 ---
 
-### **Person 4: ONNX Conversion & Deployment**
+### ** ONNX Conversion & Deployment**
 #### **Step 7: Convert to ONNX**
 ```python
 import torch.onnx
